@@ -63,6 +63,9 @@ struct ContentView: View {
                             
                         }//:FOR EACH
                         
+                        CreditsView()
+                            .modifier(CenterModifier())
+                        
                         
                     }//: LIST
                 } else {
@@ -73,6 +76,9 @@ struct ContentView: View {
                                     AnimalGridItemView(animal: item)
                                 }//: LINK
                             }//: LOOP
+                            
+                            
+                            
                         }//: GRID
                         .padding(10)
                         

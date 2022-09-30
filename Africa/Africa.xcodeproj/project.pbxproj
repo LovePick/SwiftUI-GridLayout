@@ -44,11 +44,26 @@
 		C18C951B28E6C5E50052B0F6 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C951A28E6C5E50052B0F6 /* MapAnnotationView.swift */; };
 		C18C951D28E6CC850052B0F6 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C951C28E6CC850052B0F6 /* MotionAnimationView.swift */; };
 		C18C951F28E7418D0052B0F6 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C951E28E7418D0052B0F6 /* AnimalGridItemView.swift */; };
+		C18C952F28E74CD30052B0F6 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C952E28E74CD30052B0F6 /* CreditsView.swift */; };
+		C18C953228E74EE70052B0F6 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C953128E74EE70052B0F6 /* CenterModifier.swift */; };
 		C1F86EB428E5703400E01BDA /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F86EB328E5703400E01BDA /* VideoModel.swift */; };
 		C1F86EB628E5709800E01BDA /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F86EB528E5709800E01BDA /* VideoListItemView.swift */; };
 		C1F86EB828E5781200E01BDA /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F86EB728E5781200E01BDA /* VideoPlayerView.swift */; };
 		C1F86EBB28E57A1E00E01BDA /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F86EBA28E57A1E00E01BDA /* VideoPlayerHelper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C18C952D28E749990052B0F6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C113D1B228E49DA50079AF4E /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
@@ -90,6 +105,11 @@
 		C18C951A28E6C5E50052B0F6 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		C18C951C28E6CC850052B0F6 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		C18C951E28E7418D0052B0F6 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		C18C952428E749990052B0F6 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		C18C952628E749990052B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18C952E28E74CD30052B0F6 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		C18C953128E74EE70052B0F6 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		C18C953328E7567D0052B0F6 /* Africa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Africa.entitlements; sourceTree = "<group>"; };
 		C1F86EB328E5703400E01BDA /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		C1F86EB528E5709800E01BDA /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		C1F86EB728E5781200E01BDA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
@@ -111,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				C13BD7E528E1FE8300A8F6C8 /* Africa */,
+				C18C952328E749970052B0F6 /* Stickers */,
 				C13BD7E428E1FE8300A8F6C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,7 +147,9 @@
 		C13BD7E528E1FE8300A8F6C8 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				C18C953328E7567D0052B0F6 /* Africa.entitlements */,
 				C13BD81228E2019400A8F6C8 /* Info.plist */,
+				C18C953028E74EBB0052B0F6 /* Modifier */,
 				C1F86EB928E579F400E01BDA /* Helper */,
 				C13BD82228E20B5C00A8F6C8 /* Extension */,
 				C13BD81F28E20A2800A8F6C8 /* Model */,
@@ -205,6 +228,7 @@
 				C18C951A28E6C5E50052B0F6 /* MapAnnotationView.swift */,
 				C18C951C28E6CC850052B0F6 /* MotionAnimationView.swift */,
 				C18C951E28E7418D0052B0F6 /* AnimalGridItemView.swift */,
+				C18C952E28E74CD30052B0F6 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +252,23 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C18C952328E749970052B0F6 /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				C18C952428E749990052B0F6 /* Stickers.xcassets */,
+				C18C952628E749990052B0F6 /* Info.plist */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+		C18C953028E74EBB0052B0F6 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				C18C953128E74EE70052B0F6 /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		C1F86EB928E579F400E01BDA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +287,7 @@
 				C13BD7DF28E1FE8300A8F6C8 /* Sources */,
 				C13BD7E028E1FE8300A8F6C8 /* Frameworks */,
 				C13BD7E128E1FE8300A8F6C8 /* Resources */,
+				C18C952D28E749990052B0F6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -341,8 +383,10 @@
 				C18C951F28E7418D0052B0F6 /* AnimalGridItemView.swift in Sources */,
 				C113D1BB28E4A7B50079AF4E /* InsetGalleryView.swift in Sources */,
 				C1F86EB628E5709800E01BDA /* VideoListItemView.swift in Sources */,
+				C18C952F28E74CD30052B0F6 /* CreditsView.swift in Sources */,
 				C13BD82428E20B8B00A8F6C8 /* CodableBundleExtension.swift in Sources */,
 				C18C951D28E6CC850052B0F6 /* MotionAnimationView.swift in Sources */,
+				C18C953228E74EE70052B0F6 /* CenterModifier.swift in Sources */,
 				C113D1B928E4A6360079AF4E /* HeadingView.swift in Sources */,
 				C1F86EB828E5781200E01BDA /* VideoPlayerView.swift in Sources */,
 			);
@@ -470,10 +514,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Africa/Africa.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
-				DEVELOPMENT_TEAM = 4836KR52L9;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4836KR52L9;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4836KR52L9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Africa/Info.plist;
@@ -489,6 +539,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pucknavin.Africa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = africa_dev3;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,10 +556,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Africa/Africa.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
-				DEVELOPMENT_TEAM = 4836KR52L9;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4836KR52L9;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4836KR52L9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Africa/Info.plist;
@@ -519,6 +581,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pucknavin.Africa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = africa_dev3;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
